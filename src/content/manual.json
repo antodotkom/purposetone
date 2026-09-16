@@ -1,0 +1,274 @@
+[
+  {
+    "id": "pt-man-01",
+    "slug": "practice-block-audit",
+    "part": "Part I — Practice",
+    "number": "01",
+    "title": "Practice Block Audit",
+    "summary": "Diagnose lying blocks; rebuild an honest week.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "List every block you claimed last week",
+      "Mark which ones produced a closeable artefact",
+      "Name the lie (length, time of day, or distraction)",
+      "Rebuild three honest blocks for next week",
+      "Protect one of them with a mix and a closed tab"
+    ],
+    "body": "## What a lying block is\n\nA lying block is a calendar rectangle that looks like practice and behaves like avoidance. It is two hours labelled *studio* that become plugin shopping, playlist rebuilding, or a conversation about the work that never becomes the work.\n\nThe audit is not moral. It is diagnostic. You are looking for a mismatch between **claimed minutes** and **closeable artefacts**.\n\n## How to run the week in reverse\n\nTake last week. For each claimed practice block, write one line: what exists now that did not exist before? A take. A verse. A patched cable. A sent invoice. If the line is empty, the block lied.\n\nMost makers discover they have three honest hours hiding inside twelve theatrical ones.\n\n## Rebuild rules\n\n- Name the artefact before you start (*one verse demo*, *mix notes page*, *forty minutes of loops*).\n- Time-box shorter than your pride wants. Honest forty beats fake two hours.\n- Pair the block with a studio companion mix so the sonic room and the physical room agree.\n- Close the tab that is not the work. Gear sites are not warm-ups.\n\n## Mentor note\n\nIf you share a house, the honest block may be shorter than a video essay suggests. Design for Tuesday. Forgive the collapsed day. Tools can sit in a drawer overnight without becoming a referendum on your character.\n\n## What this is not\n\nNot a grind programme. Not a public streak. The only audience for the audit is you and, if you want, a collaborator who already knows your tells.\n"
+  },
+  {
+    "id": "pt-man-02",
+    "slug": "finish-rates",
+    "part": "Part I — Practice",
+    "number": "02",
+    "title": "Finish Rates Over Inspiration",
+    "summary": "Systems for closing work.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Define done for one current piece",
+      "Count finishes in the last 30 days",
+      "Pick a definition of done that is smaller",
+      "Schedule one close this week",
+      "Log it in a notebook, not a dashboard startup"
+    ],
+    "body": "## Inspiration is a weather report\n\nWeather is real. You do not build a practice on forecasts. Finish rate is the percentage of started pieces that reach a definition of done you wrote down in advance.\n\nIf you cannot say what *done* means, you cannot have a finish rate. You only have vibes.\n\n## A boring definition of done\n\nExamples that work: bounced stereo, sent to the collaborator, printed lyric with cuts, invoice paid, lesson plan in the folder. Examples that do not: *feels finished*, *would play for my heroes*, *ready for a poster about purpose*.\n\n## Systems, not moods\n\n- Keep a finish log with dates. Thirty days is enough to see a pattern.\n- Shrink the definition until you can close something this week.\n- Separate exploration sessions from closing sessions. Both are craft. They are not the same calendar rectangle.\n\n## Mentor note\n\nA high finish rate on tiny work beats a shrine to an unfinished epic. The epic can still exist. It just cannot be the only identity in the room.\n"
+  },
+  {
+    "id": "pt-man-03",
+    "slug": "deep-work-studio",
+    "part": "Part I — Practice",
+    "number": "03",
+    "title": "Deep Work in the Studio",
+    "summary": "Attention design for makers.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Choose one problem for the session",
+      "Set a mix that does not demand applause",
+      "Remove one input (second screen, chat, shop tab)",
+      "Work until the timer, then stop",
+      "Leave a one-line note for tomorrow"
+    ],
+    "body": "## Attention is a studio resource\n\nYou already know this if you have ever lost a take to a notification. Deep work in a studio is not a Silicon Valley costume. It is session hygiene for ears and hands.\n\n## Design the room\n\nOne problem, named. One mix that holds without shouting. One rectangle of desk. Headphones as the last physical act before the first sound.\n\nLyrics compete with language work. If you are writing, keep voices rare. If you are mixing, keep the playlist in another room.\n\n## Stop on purpose\n\nStopping is part of the design. A session that melts into doomscrolling is not more dedicated. It is less designed.\n\nLeave a note: *tomorrow, the second verse chorus join*. Future you should not have to reconstruct the weather.\n"
+  },
+  {
+    "id": "pt-man-04",
+    "slug": "warm-start",
+    "part": "Part I — Practice",
+    "number": "04",
+    "title": "The First Fifteen Minutes",
+    "summary": "Openers that reduce avoidance.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Write a standing opener for this season",
+      "Use it for five sessions",
+      "Do not rebuild the opener each morning",
+      "Forgive the days you cannot have a door",
+      "Review whether it still reduces avoidance"
+    ],
+    "body": "## Avoidance loves a blank session\n\nThe first fifteen minutes are where identity arguments happen (*am I a real musician today*). A standing opener removes the false problem so you can face the real one.\n\n## Standing openers\n\nCable check and a known loop. One vocal siren. A page before screens. The point is familiarity, not novelty. Familiarity is a kind of mercy.\n\nRebuild the opener once a season, not every Tuesday.\n\n## Mentor note\n\nIf you share space, the opener might be headphones and a closed door for twelve minutes. Practise the rule when you have it. Forgive yourself when you do not.\n"
+  },
+  {
+    "id": "pt-man-05",
+    "slug": "session-hygiene",
+    "part": "Part II — Process",
+    "number": "05",
+    "title": "Session Hygiene",
+    "summary": "A room clean enough to think.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Name the session file before you record",
+      "Coil one cable you always trip on",
+      "Clear one surface",
+      "Save with a version stamp",
+      "Leave the room kinder than you found it"
+    ],
+    "body": "## Hygiene is attention\n\nA studio that cannot be thought in will be shopped in. Hygiene is not aesthetics for a camera. It is the difference between a session and a shrine.\n\n## Minimum viable tidy\n\nOne surface. One named version. One cable that no longer lies in wait. You do not need a warehouse system. You need Tuesday to survive.\n\n## Version stamps\n\n`song-v12-vocal-comp.wav` tells the truth. `finalFINAL2` is folklore. Manual v1.2 thinking belongs in audio too.\n"
+  },
+  {
+    "id": "pt-man-06",
+    "slug": "versioning",
+    "part": "Part II — Process",
+    "number": "06",
+    "title": "Versioning Without Chaos",
+    "summary": "Stamps, not folklore.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Pick a stamp pattern and write it down",
+      "Apply it to one active project today",
+      "Archive, do not delete, two old versions",
+      "Tell collaborators the pattern",
+      "Stop renaming with feelings"
+    ],
+    "body": "## Folklore versions hide work\n\nIf three people have three *finals*, you do not have a finish. You have a group project in denial.\n\n## A pattern that is boring enough to keep\n\nDate, increment, what changed. `2026-06-12-v07-mix-notes`. Share the pattern at the start of a collaboration, not after the fight.\n\n## Mentor note\n\nArchiving is kindness. Deleting to *keep it clean* is how you lose the only good verse from March.\n"
+  },
+  {
+    "id": "pt-man-07",
+    "slug": "feedback-protocol",
+    "part": "Part II — Process",
+    "number": "07",
+    "title": "Feedback Without Spiral",
+    "summary": "A protocol for notes that does not eat the weekend.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Ask for one kind of note (mix, lyric, or arrangement)",
+      "Wait a walk before answering",
+      "Extract one actionable",
+      "Park identity comments",
+      "Schedule the tiny fix, not the personality rebuild"
+    ],
+    "body": "## Spiral is optional\n\nFeedback can be data. It can also be a story about whether you deserve to make things. The protocol exists so the story does not get the session.\n\n## Ask smaller\n\n*Is the chorus landing* is a better ask than *what do you think*. Specific questions get specific notes. Vague asks get identity.\n\n## After the note\n\nWalk. Then one actionable. If the note is chemistry or values, that is a collaborator conversation, not a 2 a.m. rewrite of the self.\n\nUse the After Feedback mix if you need a sonic room that does not argue with you.\n"
+  },
+  {
+    "id": "pt-man-08",
+    "slug": "shipping-week",
+    "part": "Part II — Process",
+    "number": "08",
+    "title": "Shipping Week Checklist",
+    "summary": "Day-by-day without countdown theatre.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Write the actual ship date",
+      "List assets that must exist (audio, art, one share)",
+      "Protect one practice block in the afternoon",
+      "Decide the metric freeze date",
+      "Plan the quiet after"
+    ],
+    "body": "## Shipping is a week, not a personality\n\nCountdown theatre is a funnel costume. A shipping week is a checklist: masters where they belong, art that is true, one share, then protect the afternoon so practice still happens.\n\n## Metric freeze\n\nPick when you will look. Looking every hour is not marketing. It is a nervous system problem. Quiet releases are allowed. They still count as finishes.\n\n## After\n\nLog learnings. Rest. Next seed. The Post-Release Quiet mix exists so the spike does not become your only weather.\n"
+  },
+  {
+    "id": "pt-man-09",
+    "slug": "career-map",
+    "part": "Part III — Career",
+    "number": "09",
+    "title": "One-Page Career Map",
+    "summary": "A map that fits a bag.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Write what you make in one sentence",
+      "Write who it is for in one sentence",
+      "List three current collaborators or rooms",
+      "Name one money floor",
+      "Name one next finish, not ten dreams"
+    ],
+    "body": "## One page is the point\n\nA career map that requires a slide deck is a stall. One page: what you make, who it is for, where it lives, what you will not do, the next finish.\n\nUpdate it when the work changes, not when you feel behind.\n\n## Not LinkedIn\n\nThis is not a personal brand canvas. It is a studio document. If it cannot travel in a bag to a session, it is too much.\n\nChemistry beats clout when the session gets hard. Put the people who have chemistry on the page.\n"
+  },
+  {
+    "id": "pt-man-10",
+    "slug": "pricing",
+    "part": "Part III — Career",
+    "number": "10",
+    "title": "Pricing the Work",
+    "summary": "Floors, fair, stretch — without shrinking.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Write a floor you will not go under",
+      "Write a fair rate for this season",
+      "Write a stretch for the work that costs you more",
+      "Practise one send sentence",
+      "Send one real number this month"
+    ],
+    "body": "## Shrinking is a habit\n\nUnderpricing is often a nervous system move dressed as kindness. Kindness to collaborators includes a number they can plan around.\n\n## Three scenarios\n\nFloor: below this you decline or change the scope. Fair: what the work costs this year. Stretch: when the session asks more of your calendar or your ears.\n\nSay the number. Send the invoice. Money Morning exists so this does not become a personality crisis.\n\n## Mentor note\n\nYou can be generous with time and still have a floor. Generosity without a floor is often resentment later.\n"
+  },
+  {
+    "id": "pt-man-11",
+    "slug": "collaborators",
+    "part": "Part III — Career",
+    "number": "11",
+    "title": "Collaborator Chemistry",
+    "summary": "Green flags, red flags, and the hard session.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "List three green flags you actually need",
+      "List three red flags you will not talk yourself out of",
+      "Write your boundary in one sentence",
+      "Use it on the next inquiry",
+      "Debrief one past session with honesty, not gossip"
+    ],
+    "body": "## Chemistry beats clout\n\nWhen the session gets hard — and it will — clout does not rack the cable. Chemistry does: shared pace, shared definition of done, shared respect for ears.\n\n## Flags\n\nGreen: they show up, they name problems without contempt, they can hear no. Red: they move your finish line in public, they skip the opener, they treat your floor as a joke.\n\n## Boundary sentence\n\nKeep one you can say tired. *I can do two hours and a bounce; I cannot do an open-ended rewrite tonight.*\n"
+  },
+  {
+    "id": "pt-man-12",
+    "slug": "quiet-release",
+    "part": "Part III — Career",
+    "number": "12",
+    "title": "After a Quiet Release",
+    "summary": "When the spike does not come, the work still happened.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Thank the people, not the graph",
+      "Log one learning",
+      "Rest without a revenge campaign",
+      "Plant a next seed smaller than your pride",
+      "Return to a practice block"
+    ],
+    "body": "## Quiet is not failure\n\nA quiet release can still be a finish. The industry story that every ship must spike is a poster. Posters are not maps.\n\n## What to do\n\nThank. Log. Rest. Next seed. Do not build a second personality to punish the first.\n\nIf meaning matters to you, this is a place it can sit: the work was made; the day was honest. That is enough to return to the desk.\n"
+  },
+  {
+    "id": "pt-man-13",
+    "slug": "purpose-without-poster",
+    "part": "Part IV — Mindset & Meaning",
+    "number": "13",
+    "title": "Purpose Without the Poster",
+    "summary": "Calling as direction, not a slogan.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Write purpose as a direction for this season",
+      "Remove one hustle verb from your notes",
+      "Do one practice block that matches the direction",
+      "Leave the poster language off the homepage of your life",
+      "Revisit in a month, not every morning"
+    ],
+    "body": "## Posters are not practice\n\nPurpose language goes wrong when it becomes a campaign. *Calling*, here, means vocational direction: the kind of work you will protect time for. It is not an altar call and not a funnel.\n\n## A seasonal sentence\n\n*This season I finish songs with voices I trust.* That is a purpose you can schedule. *Unlock my potential* is not.\n\n## Soft lean\n\nIf gratitude or stillness helps you keep the direction, you are welcome to it. If it does not, keep the desk. Purposetone is not a church site. Meaning is invited, not imposed.\n"
+  },
+  {
+    "id": "pt-man-14",
+    "slug": "keep-tone",
+    "part": "Part IV — Mindset & Meaning",
+    "number": "14",
+    "title": "Keeping Tone Under Pressure",
+    "summary": "How you sound when the week is ugly.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Name one pressure that changes your tone",
+      "Write the tone you want under it",
+      "Pick a mix or walk that restores it",
+      "Practise one sentence you will not send angry",
+      "Review after the next hard session"
+    ],
+    "body": "## Tone is a craft outcome\n\nKeep your tone is not branding. It is how you speak in notes, in sessions, in invoices, when the week is ugly.\n\nPressure will try to make you a poster or a weapon. The work is to stay specific, kind, and direct.\n\n## Under pressure\n\nShorter sentences. One problem. Walk before send. The Late Build mix exists so night finishing does not become a character test.\n"
+  },
+  {
+    "id": "pt-man-15",
+    "slug": "stewardship-attention",
+    "part": "Part IV — Mindset & Meaning",
+    "number": "15",
+    "title": "Stewardship of Attention",
+    "summary": "Attention as a finite studio resource (soft lean).",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Name your three attention thieves",
+      "Give one of them a closed-door hour",
+      "Protect one deep-work block this week",
+      "Notice where meaning helps you stop, not perform",
+      "Do not turn this chapter into a purity test"
+    ],
+    "body": "## Attention can be stewarded\n\nStewardship here is not a sermon series. It is the old idea that some resources are finite and were never yours to burn for display.\n\nYour attention is one of those resources. Feeds will take it. So will fear. So will a studio that is also a shop.\n\n## Practice\n\nClose a tab. Keep a mix stable for a month. Let Sunday be restoration if that is honest for you. If gratitude language is not yours, keep the sensory switch and move on.\n\nThis chapter is labelled with a soft lean on purpose. Skip it if you came for cables. It will still be here in June.\n"
+  },
+  {
+    "id": "pt-man-16",
+    "slug": "rest-craft",
+    "part": "Part IV — Mindset & Meaning",
+    "number": "16",
+    "title": "Rest as Part of Craft",
+    "summary": "No output required.",
+    "updated": "2026-06-01",
+    "checklist": [
+      "Schedule one restoration day or half-day",
+      "Tell one person you will not ship that day",
+      "Use a mix that asks nothing",
+      "Notice the urge to earn rest",
+      "Return without a revenge practice binge"
+    ],
+    "body": "## Rest is in the manual because makers skip it\n\nIf rest is only what happens when you collapse, it is not part of craft. It is an accident.\n\nRestoration Day can include silence, a walk, one record, no output. Soft lean welcome: gratitude, stillness, a prayer-sized pause. Never required.\n\n## Mentor note\n\nReturning from rest without a binge is the skill. The work will still be there. Your tone might be better. That is the point.\n"
+  }
+]

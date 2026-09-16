@@ -1,0 +1,148 @@
+export const BANNER_THEMES = {
+  scripture: {
+    kicker: "Scripture of the day",
+    quote: "Be still, and know that I am God.",
+    verse: "Psalm 46:10",
+    tone: "ink",
+    stickers: [
+      "/kit/stickers/02-fear-not.png",
+      "/kit/stickers/11-jesus-saves.png",
+      "/kit/stickers/13-his-timing.png",
+      "/kit/stickers/05-grace.png",
+    ],
+  },
+  worship: {
+    kicker: "Worship",
+    quote: "Make a joyful noise unto the Lord.",
+    verse: "Psalm 100:1",
+    tone: "paper",
+    stickers: [
+      "/kit/stickers/06-amen.png",
+      "/kit/stickers/22-sing-it.png",
+      "/kit/stickers/23-gospel.png",
+      "/kit/stickers/12-blessed.png",
+    ],
+  },
+  strength: {
+    kicker: "Strength",
+    quote: "I can do all things through Christ.",
+    verse: "Philippians 4:13",
+    tone: "warm",
+    stickers: [
+      "/kit/stickers/07-pray-first.png",
+      "/kit/stickers/19-stay-ready.png",
+      "/kit/stickers/17-no-excuses.png",
+      "/kit/stickers/02-fear-not.png",
+    ],
+  },
+  praise: {
+    kicker: "Praise",
+    quote: "Let everything that has breath praise the Lord.",
+    verse: "Psalm 150:6",
+    tone: "ink",
+    stickers: [
+      "/kit/stickers/12-blessed.png",
+      "/kit/stickers/21-praise-loud.png",
+      "/kit/stickers/08-redeemed.png",
+      "/kit/stickers/22-sing-it.png",
+    ],
+  },
+  guidance: {
+    kicker: "Guidance",
+    quote: "Your word is a lamp unto my feet.",
+    verse: "Psalm 119:105",
+    tone: "paper",
+    stickers: [
+      "/kit/stickers/14-the-word.png",
+      "/kit/stickers/03-walk-by-faith.png",
+      "/kit/stickers/19-stay-ready.png",
+      "/kit/stickers/08-redeemed.png",
+    ],
+  },
+  newsong: {
+    kicker: "New song",
+    quote: "Sing to the Lord a new song.",
+    verse: "Psalm 96:1",
+    tone: "field",
+    stickers: [
+      "/kit/stickers/02-fear-not.png",
+      "/kit/stickers/21-praise-loud.png",
+      "/kit/stickers/23-gospel.png",
+      "/kit/stickers/13-his-timing.png",
+    ],
+  },
+  faith: {
+    kicker: "Faith",
+    quote: "Faith comes by hearing, and hearing by the word.",
+    verse: "Romans 10:17",
+    tone: "ink",
+    stickers: [
+      "/kit/stickers/18-day-one.png",
+      "/kit/stickers/19-stay-ready.png",
+      "/kit/stickers/13-his-timing.png",
+      "/kit/stickers/02-fear-not.png",
+    ],
+  },
+  testimony: {
+    kicker: "Testimony",
+    quote: "He has put a new song in my mouth.",
+    verse: "Psalm 40:3",
+    tone: "rose",
+    stickers: [
+      "/kit/stickers/24-turn-it-up.png",
+      "/kit/stickers/02-fear-not.png",
+      "/kit/stickers/12-blessed.png",
+      "/kit/stickers/21-praise-loud.png",
+    ],
+  },
+  purpose: {
+    kicker: "Purpose",
+    quote: "Do it all for the glory of God.",
+    verse: "1 Corinthians 10:31",
+    tone: "paper",
+    stickers: [
+      "/kit/stickers/04-he-is-risen.png",
+      "/kit/stickers/10-psalm-23.png",
+      "/kit/stickers/05-grace.png",
+      "/kit/stickers/14-the-word.png",
+    ],
+  },
+  joy: {
+    kicker: "Joy",
+    quote: "The joy of the Lord is your strength.",
+    verse: "Nehemiah 8:10",
+    tone: "warm",
+    stickers: [
+      "/kit/stickers/04-he-is-risen.png",
+      "/kit/stickers/19-stay-ready.png",
+      "/kit/stickers/06-amen.png",
+      "/kit/stickers/10-psalm-23.png",
+    ],
+  },
+  community: {
+    kicker: "Community",
+    quote: "Speak to one another with psalms and hymns.",
+    verse: "Ephesians 5:19",
+    tone: "ink",
+    stickers: [
+      "/kit/stickers/04-he-is-risen.png",
+      "/kit/stickers/19-stay-ready.png",
+      "/kit/stickers/12-blessed.png",
+      "/kit/stickers/07-pray-first.png",
+    ],
+  },
+  brand: {
+    kicker: "Brand",
+    quote: "Every gift has a purpose.",
+    verse: "",
+    tone: "paper",
+    stickers: [
+      "/kit/stickers/07-pray-first.png",
+      "/kit/stickers/18-day-one.png",
+      "/kit/stickers/02-fear-not.png",
+      "/kit/stickers/03-walk-by-faith.png",
+    ],
+  },
+} as const;
+
+export type BannerTheme = keyof typeof BANNER_THEMES;

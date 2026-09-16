@@ -1,0 +1,136 @@
+[
+  {
+    "id": "pt-ad-01",
+    "headline": "Evergreen guides for the work.",
+    "sub": "Read the Field Manual.",
+    "cta": "Open Manual",
+    "href": "/manual",
+    "sizeHints": [
+      "728x90",
+      "320x50"
+    ],
+    "artConcept": "paper, copper hairline, olive Evergreen"
+  },
+  {
+    "id": "pt-ad-02",
+    "headline": "Process notes, not noise.",
+    "sub": "Studio Letter.",
+    "cta": "Join",
+    "href": "/#studio-letter",
+    "sizeHints": [
+      "280x320",
+      "300x250"
+    ],
+    "artConcept": "ink footer energy on paper card"
+  },
+  {
+    "id": "pt-ad-03",
+    "headline": "Practice Block Audit",
+    "sub": "Diagnose lying blocks.",
+    "cta": "Read",
+    "href": "/manual/practice-block-audit",
+    "sizeHints": [
+      "728x90"
+    ],
+    "artConcept": "Ch.01 mono"
+  },
+  {
+    "id": "pt-ad-04",
+    "headline": "Pricing without shrinking",
+    "sub": "Careers, said plainly.",
+    "cta": "Read",
+    "href": "/manual/pricing",
+    "sizeHints": [
+      "728x90"
+    ],
+    "artConcept": "copper rule"
+  },
+  {
+    "id": "pt-ad-05",
+    "headline": "Deep Practice mix",
+    "sub": "Studio companion.",
+    "cta": "Open mix",
+    "href": "/playlists/deep-practice",
+    "sizeHints": [
+      "300x250"
+    ],
+    "artConcept": "olive Focus chip"
+  },
+  {
+    "id": "pt-ad-06",
+    "headline": "Shipping week checklist",
+    "sub": "Manual chapter, evergreen.",
+    "cta": "Open chapter",
+    "href": "/manual/shipping-week",
+    "sizeHints": [
+      "336x280"
+    ],
+    "artConcept": "checklist boxes"
+  },
+  {
+    "id": "pt-ad-07",
+    "headline": "After Feedback mix",
+    "sub": "Reset without spiral.",
+    "cta": "Open mix",
+    "href": "/playlists/after-feedback",
+    "sizeHints": [
+      "300x250"
+    ],
+    "artConcept": "paper-deep border"
+  },
+  {
+    "id": "pt-ad-08",
+    "headline": "One-Page Career Map",
+    "sub": "A map that fits a bag.",
+    "cta": "Open chapter",
+    "href": "/manual/career-map",
+    "sizeHints": [
+      "300x250"
+    ],
+    "artConcept": "mono 09"
+  },
+  {
+    "id": "pt-ad-09",
+    "headline": "Studio table video",
+    "sub": "Process over gear.",
+    "cta": "Watch",
+    "href": "/videos",
+    "sizeHints": [
+      "728x90"
+    ],
+    "artConcept": "quiet copper play"
+  },
+  {
+    "id": "pt-ad-10",
+    "headline": "Finish rates beat inspiration",
+    "sub": "Craft, weekly.",
+    "cta": "Read",
+    "href": "/manual/finish-rates",
+    "sizeHints": [
+      "728x90"
+    ],
+    "artConcept": "pull-quote serif"
+  },
+  {
+    "id": "pt-ad-11",
+    "headline": "Collaborators: chemistry",
+    "sub": "When the session gets hard.",
+    "cta": "Read",
+    "href": "/manual/collaborators",
+    "sizeHints": [
+      "728x90"
+    ],
+    "artConcept": "olive tag"
+  },
+  {
+    "id": "pt-ad-12",
+    "headline": "Purpose Without the Poster",
+    "sub": "Soft-lean essay, labelled.",
+    "cta": "Read",
+    "href": "/manual/purpose-without-poster",
+    "sizeHints": [
+      "300x250"
+    ],
+    "artConcept": "paper, honest label Advertisement"
+  }
+]

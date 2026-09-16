@@ -1,0 +1,882 @@
+[
+  {
+    "id": "pt-pl-deep-practice",
+    "slug": "deep-practice",
+    "title": "Deep Practice",
+    "moodTags": [
+      "Focus"
+    ],
+    "description": "Loop-friendly focus for the honest block.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Settle",
+        "cue": "Settle · chair, not sofa"
+      },
+      {
+        "role": "Loop bed",
+        "cue": "Loop bed · repetition as craft"
+      },
+      {
+        "role": "Metronome neighbour",
+        "cue": "Metronome neighbour · optional"
+      },
+      {
+        "role": "Mid hold",
+        "cue": "Mid hold · the work"
+      },
+      {
+        "role": "Soft vocal absent",
+        "cue": "Soft vocal absent · language needs space"
+      },
+      {
+        "role": "Return",
+        "cue": "Return · same climate"
+      },
+      {
+        "role": "Stretch cue",
+        "cue": "Stretch cue · stand"
+      },
+      {
+        "role": "Close desk",
+        "cue": "Close desk · finish rate > inspiration"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-admin-hour",
+    "slug": "admin-hour",
+    "title": "Admin Hour",
+    "moodTags": [
+      "Admin"
+    ],
+    "description": "Paperwork without despair.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Open ledger",
+        "cue": "Open ledger · numbers first"
+      },
+      {
+        "role": "Invoice calm",
+        "cue": "Invoice calm · send is a craft"
+      },
+      {
+        "role": "Email batch",
+        "cue": "Email batch · one pass"
+      },
+      {
+        "role": "Decision",
+        "cue": "Decision · one yes or no"
+      },
+      {
+        "role": "File & done",
+        "cue": "File & done · close the tab"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no upgrade itch"
+      },
+      {
+        "role": "Boundary",
+        "cue": "Boundary · stop at the hour"
+      },
+      {
+        "role": "Done",
+        "cue": "Done · ritual, not grind"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-rewrite-pass",
+    "slug": "rewrite-pass",
+    "title": "Rewrite Pass",
+    "moodTags": [
+      "Rewrite"
+    ],
+    "description": "Patient mid-tempo for red ink.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Print listen",
+        "cue": "Print listen · ears before eyes"
+      },
+      {
+        "role": "Red pen",
+        "cue": "Red pen · structural first"
+      },
+      {
+        "role": "Structural",
+        "cue": "Structural · kill a darling"
+      },
+      {
+        "role": "Line pass",
+        "cue": "Line pass · language"
+      },
+      {
+        "role": "Rest ear",
+        "cue": "Rest ear · silence is a tool"
+      },
+      {
+        "role": "Final read",
+        "cue": "Final read · once"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no second album in the margins"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · version stamp"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-before-the-session",
+    "slug": "before-the-session",
+    "title": "Before the Session",
+    "moodTags": [
+      "Warm-up"
+    ],
+    "description": "Room open. Count-in ready.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Room open",
+        "cue": "Room open · lights"
+      },
+      {
+        "role": "Cable",
+        "cue": "Cable · hygiene"
+      },
+      {
+        "role": "Hands",
+        "cue": "Hands · warm"
+      },
+      {
+        "role": "Intention",
+        "cue": "Intention · one problem"
+      },
+      {
+        "role": "Count-in ready",
+        "cue": "Count-in ready · start"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · resist the extra plugin"
+      },
+      {
+        "role": "Boundary",
+        "cue": "Boundary · session length named"
+      },
+      {
+        "role": "Go",
+        "cue": "Go · make the work"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-after-feedback",
+    "slug": "after-feedback",
+    "title": "After Feedback",
+    "moodTags": [
+      "Reset"
+    ],
+    "description": "Reset without spiral.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Breath",
+        "cue": "Breath · before the thread"
+      },
+      {
+        "role": "Walk",
+        "cue": "Walk · body first"
+      },
+      {
+        "role": "Reframe",
+        "cue": "Reframe · chemistry not clout"
+      },
+      {
+        "role": "Tiny fix",
+        "cue": "Tiny fix · one actionable"
+      },
+      {
+        "role": "Park it",
+        "cue": "Park it · version for tomorrow"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no late-night rewrite of identity"
+      },
+      {
+        "role": "Note",
+        "cue": "Note · mentor callout"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · keep your tone"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-late-build",
+    "slug": "late-build",
+    "title": "Late Build",
+    "moodTags": [
+      "Late"
+    ],
+    "description": "Night finishing. One problem.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Dim light",
+        "cue": "Dim light · paper lamp"
+      },
+      {
+        "role": "One problem",
+        "cue": "One problem · named"
+      },
+      {
+        "role": "Tunnel",
+        "cue": "Tunnel · no new features"
+      },
+      {
+        "role": "Save",
+        "cue": "Save · versioning without chaos"
+      },
+      {
+        "role": "Shutdown ritual",
+        "cue": "Shutdown ritual · stop"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · protect tomorrow's practice"
+      },
+      {
+        "role": "Boundary",
+        "cue": "Boundary · no 2 a.m. identity crisis"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · sleep as craft"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-vocal-warm",
+    "slug": "vocal-warm",
+    "title": "Vocal Warm Companion",
+    "moodTags": [
+      "Warm-up"
+    ],
+    "description": "Gentle. Rest included.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Hum",
+        "cue": "Hum · no heroics"
+      },
+      {
+        "role": "Slide",
+        "cue": "Slide · range without strain"
+      },
+      {
+        "role": "Diction",
+        "cue": "Diction · text"
+      },
+      {
+        "role": "Soft song",
+        "cue": "Soft song · one"
+      },
+      {
+        "role": "Rest",
+        "cue": "Rest · required"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · water"
+      },
+      {
+        "role": "Cue",
+        "cue": "Cue · session next"
+      },
+      {
+        "role": "Stop",
+        "cue": "Stop · warmth not performance"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-mix-review",
+    "slug": "mix-review",
+    "title": "Mix Review Pass",
+    "moodTags": [
+      "Focus"
+    ],
+    "description": "Critical listening, copper-rule patience.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Cold open",
+        "cue": "Cold open · first 30 seconds"
+      },
+      {
+        "role": "Level",
+        "cue": "Level · honest"
+      },
+      {
+        "role": "Low end",
+        "cue": "Low end · one question"
+      },
+      {
+        "role": "Vocal seat",
+        "cue": "Vocal seat · where it lives"
+      },
+      {
+        "role": "Bus",
+        "cue": "Bus · glue not soup"
+      },
+      {
+        "role": "Notes",
+        "cue": "Notes · paper"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no plugin shopping"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · one revision"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-collaborator-drive",
+    "slug": "collaborator-drive",
+    "title": "Collaborator Drive",
+    "moodTags": [
+      "Reset"
+    ],
+    "description": "Travel to the session. Boundaries packed.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Leave",
+        "cue": "Leave · on time"
+      },
+      {
+        "role": "Mentally arrive",
+        "cue": "Mentally arrive · their goal"
+      },
+      {
+        "role": "Boundary",
+        "cue": "Boundary · what you will not do"
+      },
+      {
+        "role": "Hello energy",
+        "cue": "Hello energy · chemistry first"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · clout later"
+      },
+      {
+        "role": "Cue",
+        "cue": "Cue · one-page map in bag"
+      },
+      {
+        "role": "Rest",
+        "cue": "Rest · park"
+      },
+      {
+        "role": "Go",
+        "cue": "Go · make together"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-release-week-am",
+    "slug": "release-week-am",
+    "title": "Release Week AM",
+    "moodTags": [
+      "Focus"
+    ],
+    "description": "Steady nerves. Protect the afternoon.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Checklist",
+        "cue": "Checklist · shipping week"
+      },
+      {
+        "role": "Soft body",
+        "cue": "Soft body · not a campaign voice"
+      },
+      {
+        "role": "One share",
+        "cue": "One share · then stop"
+      },
+      {
+        "role": "Protect afternoon",
+        "cue": "Protect afternoon · practice still happens"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no countdown theatre"
+      },
+      {
+        "role": "Note",
+        "cue": "Note · quiet release is allowed"
+      },
+      {
+        "role": "Boundary",
+        "cue": "Boundary · metrics after a week"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · keep tone"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-teaching-prep",
+    "slug": "teaching-prep",
+    "title": "Teaching Prep",
+    "moodTags": [
+      "Admin"
+    ],
+    "description": "Lesson planning without guru theatre.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Objective",
+        "cue": "Objective · one"
+      },
+      {
+        "role": "Demo bed",
+        "cue": "Demo bed · you can play it"
+      },
+      {
+        "role": "Student pace",
+        "cue": "Student pace · not your pace"
+      },
+      {
+        "role": "Close plan",
+        "cue": "Close plan · timeboxed"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no 10x language"
+      },
+      {
+        "role": "Cue",
+        "cue": "Cue · office hour later"
+      },
+      {
+        "role": "Note",
+        "cue": "Note · questions not speeches"
+      },
+      {
+        "role": "Done",
+        "cue": "Done · print"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-gear-neutrality",
+    "slug": "gear-neutrality",
+    "title": "Gear Neutrality",
+    "moodTags": [
+      "Reset"
+    ],
+    "description": "Resist the upgrade itch.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "What you have",
+        "cue": "What you have · inventory"
+      },
+      {
+        "role": "Constraint game",
+        "cue": "Constraint game · one instrument"
+      },
+      {
+        "role": "Make anyway",
+        "cue": "Make anyway · finish rate"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no tab of demos"
+      },
+      {
+        "role": "Cue",
+        "cue": "Cue · session hygiene"
+      },
+      {
+        "role": "Note",
+        "cue": "Note · tone is not a shop"
+      },
+      {
+        "role": "Rest",
+        "cue": "Rest · walk"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · cable coiled"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-lyric-desk",
+    "slug": "lyric-desk",
+    "title": "Lyric Desk",
+    "moodTags": [
+      "Focus"
+    ],
+    "description": "Language focus. Cut 40%.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Freewrite",
+        "cue": "Freewrite · ugly allowed"
+      },
+      {
+        "role": "Cut",
+        "cue": "Cut · 40 percent"
+      },
+      {
+        "role": "Image",
+        "cue": "Image · one true picture"
+      },
+      {
+        "role": "Truth pass",
+        "cue": "Truth pass · say the thing"
+      },
+      {
+        "role": "Title",
+        "cue": "Title · last"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no rhyme first"
+      },
+      {
+        "role": "Rest ear",
+        "cue": "Rest ear · read aloud"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · version"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-score-notation",
+    "slug": "score-notation",
+    "title": "Score / Notation",
+    "moodTags": [
+      "Focus"
+    ],
+    "description": "Pencil energy. Proof the page.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Barlines",
+        "cue": "Barlines · structure"
+      },
+      {
+        "role": "Voice lead",
+        "cue": "Voice lead · kindness to players"
+      },
+      {
+        "role": "Dynamics",
+        "cue": "Dynamics · specific"
+      },
+      {
+        "role": "Proof",
+        "cue": "Proof · slow"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no software rabbit hole"
+      },
+      {
+        "role": "Cue",
+        "cue": "Cue · play through"
+      },
+      {
+        "role": "Note",
+        "cue": "Note · print"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · pencil down"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-money-morning",
+    "slug": "money-morning",
+    "title": "Money Morning",
+    "moodTags": [
+      "Admin"
+    ],
+    "description": "Pricing and invoices. Send is a craft.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Numbers",
+        "cue": "Numbers · actual"
+      },
+      {
+        "role": "Boundaries",
+        "cue": "Boundaries · the floor"
+      },
+      {
+        "role": "Send",
+        "cue": "Send · today"
+      },
+      {
+        "role": "Done",
+        "cue": "Done · close ledger"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no shrinking"
+      },
+      {
+        "role": "Cue",
+        "cue": "Cue · three scenarios if stuck"
+      },
+      {
+        "role": "Note",
+        "cue": "Note · not cringe, not hustle"
+      },
+      {
+        "role": "Stop",
+        "cue": "Stop · hour complete"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-post-release-quiet",
+    "slug": "post-release-quiet",
+    "title": "Post-Release Quiet",
+    "moodTags": [
+      "Reset"
+    ],
+    "description": "After the spike. Log, rest, next seed.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Thank",
+        "cue": "Thank · people not metrics"
+      },
+      {
+        "role": "Log learnings",
+        "cue": "Log learnings · one page"
+      },
+      {
+        "role": "Rest",
+        "cue": "Rest · allowed"
+      },
+      {
+        "role": "Next seed",
+        "cue": "Next seed · tiny"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no second campaign"
+      },
+      {
+        "role": "Cue",
+        "cue": "Cue · quiet release chapter"
+      },
+      {
+        "role": "Note",
+        "cue": "Note · finish rate still counts"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · studio letter later"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-ensemble-rehearsal",
+    "slug": "ensemble-rehearsal",
+    "title": "Ensemble Rehearsal Pad",
+    "moodTags": [
+      "Warm-up"
+    ],
+    "description": "Group. Tune, section, notes, social close.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Tune",
+        "cue": "Tune · actually"
+      },
+      {
+        "role": "Section",
+        "cue": "Section · one problem"
+      },
+      {
+        "role": "Full",
+        "cue": "Full · once"
+      },
+      {
+        "role": "Notes",
+        "cue": "Notes · kind and specific"
+      },
+      {
+        "role": "Social close",
+        "cue": "Social close · chemistry"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no clout talk"
+      },
+      {
+        "role": "Cue",
+        "cue": "Cue · next call"
+      },
+      {
+        "role": "Done",
+        "cue": "Done · room left better"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-restoration-day",
+    "slug": "restoration-day",
+    "title": "Restoration Day",
+    "moodTags": [
+      "Reset"
+    ],
+    "description": "Soft lean welcome. No output required.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Silence invite",
+        "cue": "Silence invite · optional meaning"
+      },
+      {
+        "role": "Gratitude",
+        "cue": "Gratitude · if it is yours"
+      },
+      {
+        "role": "Gentle input",
+        "cue": "Gentle input · one record"
+      },
+      {
+        "role": "No output required",
+        "cue": "No output required · rest is craft"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · not a chapel, a desk with room"
+      },
+      {
+        "role": "Walk",
+        "cue": "Walk · body"
+      },
+      {
+        "role": "Note",
+        "cue": "Note · stewardship of attention"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · return tomorrow"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-portfolio-update",
+    "slug": "portfolio-update",
+    "title": "Portfolio Update",
+    "moodTags": [
+      "Admin"
+    ],
+    "description": "Gather, kill darlings, sequence, publish.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Gather",
+        "cue": "Gather · everything"
+      },
+      {
+        "role": "Kill darlings",
+        "cue": "Kill darlings · chemistry over clout"
+      },
+      {
+        "role": "Sequence",
+        "cue": "Sequence · one story"
+      },
+      {
+        "role": "Publish",
+        "cue": "Publish · done"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no extra take"
+      },
+      {
+        "role": "Cue",
+        "cue": "Cue · one-page career map"
+      },
+      {
+        "role": "Note",
+        "cue": "Note · update the map"
+      },
+      {
+        "role": "Stop",
+        "cue": "Stop · it ships"
+      }
+    ]
+  },
+  {
+    "id": "pt-pl-mentor-office-hour",
+    "slug": "mentor-office-hour",
+    "title": "Mentor Office Hour",
+    "moodTags": [
+      "Focus"
+    ],
+    "description": "Prep to advise others. Their goal, not your speech.",
+    "coverConcept": "warm paper, copper rule, olive tag",
+    "slots": [
+      {
+        "role": "Their goal",
+        "cue": "Their goal · written"
+      },
+      {
+        "role": "Questions",
+        "cue": "Questions · more than answers"
+      },
+      {
+        "role": "Boundaries",
+        "cue": "Boundaries · time and scope"
+      },
+      {
+        "role": "Follow-up",
+        "cue": "Follow-up · one note"
+      },
+      {
+        "role": "Hold",
+        "cue": "Hold · no guru"
+      },
+      {
+        "role": "Cue",
+        "cue": "Cue · Manual chapter if needed"
+      },
+      {
+        "role": "Rest",
+        "cue": "Rest · after"
+      },
+      {
+        "role": "Close",
+        "cue": "Close · keep their tone too"
+      }
+    ]
+  }
+]
