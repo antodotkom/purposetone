@@ -104,15 +104,18 @@ export default async function PostPage({
             </div>
           ) : null}
           {post.youtubeId ? (
-            <div className="mt-8 overflow-hidden rounded-lg border border-paper-deep bg-ink">
+            <figure className="mt-8 overflow-hidden rounded-lg border border-paper-deep bg-ink shadow-card">
               <iframe
                 title={post.title}
-                src={`https://www.youtube-nocookie.com/embed/${post.youtubeId}?rel=0`}
+                src={`https://www.youtube-nocookie.com/embed/${post.youtubeId}?rel=0&modestbranding=1`}
                 className="aspect-video w-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               />
-            </div>
+              <figcaption className="bg-paper-elevated px-4 py-3 font-display text-[15px] italic text-brand">
+                Play the record
+              </figcaption>
+            </figure>
           ) : null}
           <div className="mt-8">
             <MarkdownBody markdown={firstHalf} />
