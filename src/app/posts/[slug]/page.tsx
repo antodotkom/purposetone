@@ -4,6 +4,7 @@ import { AdBanner } from "@/components/ads/AdBanner";
 import { Container } from "@/components/chrome/Container";
 import { PlaylistCard } from "@/components/media/PlaylistCard";
 import { MarkdownBody } from "@/components/posts/MarkdownBody";
+import { OtherStories } from "@/components/posts/OtherStories";
 import { PostCard } from "@/components/posts/PostCard";
 import { PostHero } from "@/components/posts/PostHero";
 import { breadcrumbJsonLd, JsonLd } from "@/components/seo/JsonLd";
@@ -49,9 +50,14 @@ export default async function PostPage({
   if (!post) notFound();
 
   const related = getRelatedPosts(post);
+  const others = getPosts().filter((item) => item.slug !== post.slug).slice(0, 6);
   const chapter = resolveManualChapter(post);
   const mix = relatedPlaylistForPost(post);
-  const body = post.body ?? post.excerpt;
+  const raw = post.body ?? post.excerpt;
+  const videoToken = "{{video}}";
+  const videoAt = raw.indexOf(videoToken);
+  const lead = videoAt >= 0 ? raw.slice(0, videoAt).trim() : "";
+  const body = videoAt >= 0 ? raw.slice(videoAt + videoToken.length).trim() : raw;
   const midSplit = body.includes("\n## ")
     ? body.split(/(?=\n## )/)
     : [body];
@@ -83,7 +89,7 @@ export default async function PostPage({
         ]}
       />
       <PostHero post={post} />
-      <Container className="grid gap-10 py-12 lg:grid-cols-[minmax(0,1fr)_280px]">
+      <Container className="grid gap-10 py-12 lg:grid-cols-[minmax(0,1fr)_320px]">
         <article>
           <Breadcrumb
             items={[
@@ -92,6 +98,22 @@ export default async function PostPage({
               { label: post.title },
             ]}
           />
+          {lead ? (
+            <div className="mt-8">
+              <MarkdownBody markdown={lead} />
+            </div>
+          ) : null}
+          {post.youtubeId ? (
+            <div className="mt-8 overflow-hidden rounded-lg border border-paper-deep bg-ink">
+              <iframe
+                title={post.title}
+                src={`https://www.youtube-nocookie.com/embed/${post.youtubeId}?rel=0`}
+                className="aspect-video w-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+          ) : null}
           <div className="mt-8">
             <MarkdownBody markdown={firstHalf} />
           </div>
@@ -114,7 +136,8 @@ export default async function PostPage({
             </div>
           ) : null}
         </article>
-        <aside className="space-y-6 lg:pt-12">
+        <aside className="space-y-6 lg:sticky lg:top-8 lg:self-start lg:pt-12">
+          <OtherStories posts={others} />
           <AdBanner slotId="post-sidebar" size="rectangle" variant="house" />
           {mix ? (
             <div>

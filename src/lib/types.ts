@@ -18,6 +18,7 @@ export type PurposePost = {
   seoTitle: string;
   seoDescription: string;
   manualChapter?: string;
+  youtubeId?: string;
 };
 
 export type ManualChapter = {
