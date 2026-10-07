@@ -3,10 +3,30 @@ import type { BannerSlide } from "@/components/kit/BannerSlider";
 const b = (file: string) => `/kit/banners/slides/${file}`;
 
 export const HOME_CREAM_SLIDES: BannerSlide[] = [
-  { src: b("purpose.png"), alt: "Do it all for the glory of God. 1 Corinthians 10:31", href: "/posts" },
-  { src: b("brand.png"), alt: "Every gift has a purpose.", href: "/about" },
-  { src: b("guidance.png"), alt: "Your word is a lamp unto my feet. Psalm 119:105", href: "/posts" },
-  { src: b("joy.png"), alt: "The joy of the Lord is your strength. Nehemiah 8:10", href: "/playlists" },
+  {
+    quote: "Do it all for the glory of God.",
+    verse: "1 Corinthians 10:31",
+    alt: "Do it all for the glory of God. 1 Corinthians 10:31",
+    href: "/posts",
+  },
+  {
+    quote: "Every good and perfect gift is from above.",
+    verse: "James 1:17",
+    alt: "Every good and perfect gift is from above. James 1:17",
+    href: "/about",
+  },
+  {
+    quote: "Your word is a lamp unto my feet.",
+    verse: "Psalm 119:105",
+    alt: "Your word is a lamp unto my feet. Psalm 119:105",
+    href: "/posts",
+  },
+  {
+    quote: "The joy of the Lord is your strength.",
+    verse: "Nehemiah 8:10",
+    alt: "The joy of the Lord is your strength. Nehemiah 8:10",
+    href: "/playlists",
+  },
 ];
 
 export const HOME_INK_SLIDES: BannerSlide[] = [

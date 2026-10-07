@@ -4,9 +4,11 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export type BannerSlide = {
-  src: string;
+  src?: string;
   alt: string;
   href?: string;
+  quote?: string;
+  verse?: string;
 };
 
 const TONE_CLASS: Record<string, string> = {
@@ -58,18 +60,23 @@ export function BannerSlider({
           style={{ transform: `translateX(-${index * 100}%)` }}
         >
           {slides.map((slide) => {
-            const image = (
+            const body = slide.quote ? (
+              <div className="kit-slide-copy">
+                <p className="kit-slide-quote">{slide.quote}</p>
+                {slide.verse ? <p className="kit-slide-verse">{slide.verse}</p> : null}
+              </div>
+            ) : (
               // eslint-disable-next-line @next/next/no-img-element
               <img src={slide.src} alt={slide.alt} className="kit-slide-img" />
             );
             return (
-              <div key={slide.src} className="kit-slide-item">
+              <div key={slide.quote ?? slide.src} className="kit-slide-item">
                 {slide.href ? (
                   <Link href={slide.href} className="kit-slide-link">
-                    {image}
+                    {body}
                   </Link>
                 ) : (
-                  image
+                  body
                 )}
               </div>
             );
@@ -80,7 +87,7 @@ export function BannerSlider({
         <div className="kit-slide-dots" role="tablist" aria-label="Banner slides">
           {slides.map((slide, dot) => (
             <button
-              key={slide.src}
+              key={slide.quote ?? slide.src}
               type="button"
               role="tab"
               aria-selected={dot === index}
