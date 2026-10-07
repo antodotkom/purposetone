@@ -3,6 +3,17 @@ import type { PostCategory } from "@/lib/types";
 export const SITE_NAME = "Purposetone";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://purposetone.com";
+
+/** Absolute image for WhatsApp and social cards. Local covers use a compressed copy. */
+export function postShareImage(cover?: string): string | undefined {
+  if (!cover) return undefined;
+  if (/^https?:\/\//.test(cover)) return cover;
+  const file = cover.split("/").pop();
+  if (file && (cover.startsWith("/covers/") || cover.startsWith("/features/"))) {
+    return `${SITE_URL}/share/${file}`;
+  }
+  return `${SITE_URL}${cover.startsWith("/") ? cover : `/${cover}`}`;
+}
 export const SITE_LOCALE = "en-CA";
 export const SITE_TAGLINE = "Make the record. Keep the gospel.";
 export const HERO_LINE = "Music stories. Craft in the mix.";

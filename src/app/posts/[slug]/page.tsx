@@ -17,7 +17,7 @@ import {
   relatedPlaylistForPost,
   resolveManualChapter,
 } from "@/lib/content";
-import { SITE_URL } from "@/lib/site";
+import { postShareImage, SITE_URL } from "@/lib/site";
 
 export async function generateStaticParams() {
   return getPosts().map((post) => ({ slug: post.slug }));
@@ -29,6 +29,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return { title: "Note" };
+  const image = postShareImage(post.coverImage);
   return {
     title: post.seoTitle.replace(" · Purposetone", ""),
     description: post.seoDescription,
@@ -37,7 +38,14 @@ export async function generateMetadata({
       description: post.seoDescription,
       type: "article",
       publishedTime: post.date,
-      images: post.coverImage ? [{ url: post.coverImage }] : undefined,
+      url: `${SITE_URL}/posts/${post.slug}`,
+      images: image ? [{ url: image, alt: post.title }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.seoTitle,
+      description: post.seoDescription,
+      images: image ? [image] : undefined,
     },
   };
 }
@@ -72,6 +80,7 @@ export default async function PostPage({
     datePublished: post.date,
     inLanguage: "en-CA",
     url: `${SITE_URL}/posts/${post.slug}`,
+    image: postShareImage(post.coverImage),
     articleSection: post.category,
     publisher: { "@type": "Organization", name: "Purposetone" },
   };
