@@ -3,16 +3,26 @@ import { CategoryChip } from "@/components/ui/CategoryChip";
 import { formatDate } from "@/lib/format";
 import type { PurposePost } from "@/lib/types";
 
+function coverFrame(src?: string) {
+  if (src?.startsWith("/covers/")) return "aspect-square";
+  if (src?.startsWith("/features/")) return "aspect-[4/3]";
+  return "h-40";
+}
+
+function coverFit(src?: string) {
+  return src?.startsWith("/covers/") ? "object-contain" : "object-cover";
+}
+
 export function PostCard({ post }: { post: PurposePost }) {
   return (
     <article className="card-lift flex h-full flex-col overflow-hidden rounded-lg bg-paper-deep text-ink shadow-card">
-      <div className={`relative overflow-hidden bg-paper-deep ${post.coverImage?.startsWith("/covers/") ? "aspect-square" : "h-40"}`}>
+      <div className={`relative overflow-hidden bg-paper-deep ${coverFrame(post.coverImage)}`}>
         {post.coverImage ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={post.coverImage}
-            alt=""
-            className={`absolute inset-0 h-full w-full ${post.coverImage.startsWith("/covers/") ? "object-contain" : "object-cover"}`}
+            alt={post.title}
+            className={`absolute inset-0 h-full w-full ${coverFit(post.coverImage)}`}
           />
         ) : null}
       </div>

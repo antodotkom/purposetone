@@ -10,13 +10,15 @@ export function PostHero({ post }: { post: PurposePost }) {
           className={`relative w-full overflow-hidden bg-paper-deep ${
             post.coverImage.startsWith("/covers/")
               ? "mx-auto aspect-square max-w-md md:max-w-lg"
-              : "aspect-[16/7]"
+              : post.coverImage.startsWith("/features/")
+                ? "mx-auto aspect-[4/3] max-w-3xl"
+                : "aspect-[16/7]"
           }`}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={post.coverImage}
-            alt=""
+            alt={post.title}
             className={`absolute inset-0 h-full w-full ${
               post.coverImage.startsWith("/covers/") ? "object-contain" : "object-cover"
             }`}
